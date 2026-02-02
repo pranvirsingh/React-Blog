@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 import { useStoreActions } from "easy-peasy"
 
 const PostPage = () => {
-    const apiUrl = "http://localhost:3500/posts";
+    // const apiUrl = "http://localhost:3500/posts";
     const params = useParams()
     const navigate = useNavigate()
     const [post, setPosts] = useState(null)

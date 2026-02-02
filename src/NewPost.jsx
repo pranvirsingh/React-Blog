@@ -7,7 +7,6 @@ const NewPost = () => {
     const navigate = useNavigate()
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
-    const apiUrl = "http://localhost:3500/posts";
     const addPost = useStoreActions(a => a.addPost)
     const handleAddPost = async (e) => {
         e.preventDefault();
